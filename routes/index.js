@@ -3,6 +3,6 @@ const router = express.Router()
 
 const tabelRouter = require('./tabel.router')
 
-router.use("/tabel", tabelRouter)
+router.use("/", tabelRouter)
 
 module.exports = router
